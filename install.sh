@@ -1,7 +1,7 @@
 #!/bin/bash
 source functions
 
-function main{
+function main {
     GetOSVersion
     if [ "$os_name" == "Ubuntu"]; then
         install_zsh_ubuntu
