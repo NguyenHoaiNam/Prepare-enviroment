@@ -3,9 +3,9 @@ source functions
 
 function main {
     GetOSVersion
-    if [ "$os_name" == "Ubuntu"]; then
+    if [ "$os_name" == "Ubuntu" ]; then
         install_zsh_ubuntu
-    elif [ "$os_name" == "CentOs"]; then
+    elif [ "$os_name" == "CentOs" ]; then
         install_zsh_centos
     fi
     echo "Start installing oh-my-zsh"
